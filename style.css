@@ -1,0 +1,234 @@
+/* Style.css */
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 10px;
+}
+
+header h1 {
+    margin-right: auto;
+}
+
+header nav {
+    display: inline-block;
+}
+
+header nav ul {
+    list-style: none;
+    display: flex;
+    font-size: 18px;
+}
+
+header nav ul li a:hover {
+    background-color: #5f3fde;
+    color: white;
+    border: none;
+    border-radius: 50px;
+    transition: 0.5s;
+}
+
+.hire {
+    font-size: 18px;
+    background-color: rgb(244, 33, 33);
+    text-decoration: none;
+    padding: 9px 4px;
+    font-weight: bold;
+    border-radius: 50px;
+    border: none;
+}
+
+.hire a {
+    text-decoration: none;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 50px;
+}
+
+.hire:hover {
+    background-color: green;
+    transition: 0.5s;
+}
+
+header nav a {
+    color: #fff;
+    text-decoration: none;
+    padding: 10px 20px;
+}
+
+.Intro {
+    margin-left: 8%;
+    margin-top: 15%;
+}
+
+.Intro h1 {
+    font-size: 50px;
+}
+
+.Intro h1 span {
+    color: rgb(249, 124, 0);
+}
+
+.Intro button {
+    background-color: #de3f74;
+    font-size: 18px;
+    padding: 15px 20px;
+    border: none;
+    border-radius: 50px;
+    margin-top: 10px;
+}
+
+.Intro button a {
+    text-decoration: none;
+    color: white;
+}
+
+.Intro button:hover {
+    background-color: rgb(0, 193, 26);
+    transition: 0.5s;
+}
+
+.image {
+    position: absolute;
+    width: 35%;
+    height: 60%;
+    bottom: 0;
+    right: 100px;
+    top: 120px;
+}
+
+.image img {
+    position: absolute;
+    left: 30%;
+    width: 80%;
+    height: 114%;
+    filter: drop-shadow(5px 5px 5px #222);
+}
+
+
+.project h1 {
+    margin: 5%;
+    font-size: 60px;
+    color: rgb(249, 124, 0);
+}
+
+/* .projects {
+    display: flex;
+    justify-content: space-between;
+    padding: 50px;
+} */
+
+/* .p1 h2 p {
+    margin-right: auto;
+}
+
+.img2 img {
+    width: 260px;
+    height: 200px;
+} */
+
+
+
+.services h1 {
+    font-size: 60px;
+    margin: 5%;
+    color: rgb(249, 124, 0);
+}
+
+.box1 {
+    /* float: left; */
+    text-align: center;
+    border-radius: 60px;
+    margin: 20px;
+    background-color: rgba(62, 37, 255, 0.77);
+    color: white;
+    /* box-sizing: border-box; */
+    width: auto;
+    padding: 2px;
+}
+
+.box1:hover {
+    transition-duration: 0.4s;
+    background-color: #51ca3c;
+}
+
+.education h1 {
+    font-size: 60px;
+    margin: 5%;
+    color: rgb(249, 124, 0);
+}
+
+.education table {
+    text-align: center;
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+.education table tr th {
+    font-size: 22px;
+    padding: 10px;
+}
+
+.education table tr td {
+    padding: 20px;
+}
+
+.education table tr:nth-child(even) {
+    background-color: #dddddd;
+}
+
+.Intrnship h1 {
+    font-size: 60px;
+    margin: 5%;
+    color: rgb(249, 124, 0);
+}
+
+.Intrnship table {
+    text-align: center;
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+.Intrnship table tr th {
+    font-size: 22px;
+    padding: 10px;
+}
+
+.Intrnship table tr td {
+    padding: 20px;
+}
+
+.Intrnship table tr:nth-child(even) {
+    background-color: #dddddd;
+}
+
+
+footer {
+    background-color: #333;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 40px;
+}
+
+footer p {
+    margin: 0;
+}
